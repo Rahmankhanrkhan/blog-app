@@ -23,16 +23,16 @@ const BlogPostForm = ({ onSubmit, initialValues }) => {
             />
             <Button
                 title='Save'
-                onPress = { () => onSubmit( title, content ) }
+                onPress={() => onSubmit(title, content)}
             />
         </View>
     )
 };
 
-BlogPostForm.defaultProps={
-    initialValues:{
+BlogPostForm.defaultProps = {
+    initialValues: {
         title: '',
-        content:''
+        content: ''
     }
 }
 
